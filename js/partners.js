@@ -3,7 +3,7 @@ const cardsRestaurants = document.querySelector('.cards-restaurants')
 const renderItems = (data) => {
     data.forEach(({image, kitchen, name, price, products, stars, time_of_delivery }) => {
         const a = document.createElement('a')
-        a.setAttribute('href', 'https://magomedkhamaev.github.io/test/restaurant.html')
+        a.setAttribute('href', '/restaurant.html')
         a.classList.add('card')
         a.classList.add('card-restaurant')
 
@@ -32,7 +32,7 @@ const renderItems = (data) => {
             const link = a.dataset.products
 
             localStorage.setItem('restaurant', link)
-             window.location.href = '/restaurant.html'
+             window.location.href = 'https://magomedkhamaev.github.io/test/restaurant.html'
         })
     });
 }
