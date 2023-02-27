@@ -3,7 +3,7 @@ const cardsRestaurants = document.querySelector('.cards-restaurants')
 const renderItems = (data) => {
     data.forEach(({image, kitchen, name, price, products, stars, time_of_delivery }) => {
         const a = document.createElement('a')
-        a.setAttribute('href', '/restaurant.html')
+        a.setAttribute('href', 'test/restaurant.html')
         a.classList.add('card')
         a.classList.add('card-restaurant')
 
