@@ -32,7 +32,7 @@ const renderItems = (data) => {
             const link = a.dataset.products
 
             localStorage.setItem('restaurant', link)
-             window.location.href = '/restaurant.html'
+             window.location.href = 'test/restaurant.html'
         })
     });
 }
